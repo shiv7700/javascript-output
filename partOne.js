@@ -1,3 +1,9 @@
+// Output Based Logic building Questions
+// Guess the output of the questions without running on machine
+// guessing output of a code without running it , is called as dry run
+// dry run code
+// treat every question as separate single question
+
 //Q1
 function fruit() {
   console.log(name);
@@ -397,5 +403,150 @@ function getName() {
 getName();
 
 //Q68
+let name = "blame";
+function getName() {
+  console.log(name);
+}
+getName();
+
 //Q69
+console.log(`${((x) => x)("i love")} to program`);
+
 //Q70
+function threeSome(x, y, z) {
+  return x + y + z;
+}
+// threeSome([1,2,3])
+// threeSome(...[1,2,3])
+// threeSome([...1,2,3])
+// threeSome([...[1,2,3]])
+
+//Q71
+const name = "great coder are not born great";
+console.log(!typeof name === "object");
+console.log(!typeof name === "string");
+
+//Q72
+let name = "blame";
+let exp = 5;
+console.log(isNaN(name));
+console.log(isNaN(exp));
+
+//Q73
+let person = {
+  name: "blame",
+};
+//what can modify person object
+Object.seal(person);
+console.log(person);
+
+//Q74
+let arr = [1, 2, 3, 4, 5];
+// remove first element
+
+//Q75
+// check value is even or odd
+
+//Q76
+let data = "true";
+// convert data into boolean false value
+
+//Q77
+let data = "true";
+// convert data into boolean true value
+
+//Q78
+// difference between map and foreach
+
+//Q79
+let data = ["blame", "element", "json"];
+delete data[1];
+console.log(data);
+
+//Q80
+let data = ["blame", "element", "json"];
+delete data[1];
+console.log(data.length);
+
+//Q81
+// merge two array
+let a = [1, 2, 3];
+let b = [4, 5, 6];
+console.log([...a, ...b]);
+
+//Q82
+let c = 3 ** 3;
+console.log(c);
+
+//Q83
+let a = 2;
+setTimeout(() => {
+  console.log(a);
+}, 0);
+a = 100;
+
+//Q84
+let a = 10;
+let A = 100;
+console.log(A);
+
+//Q85
+let A10 = "blame"
+let 10A = "like"
+console.log(A10);
+console.log(10A);
+
+//Q86
+let a = "blame";
+let a2 = `blame`;
+console.log(a===a2);
+
+//Q87
+let a = 1;
+let c = 2;
+console.log(--c === a);
+
+//Q88
+let f = 1;
+let g = 1;
+let h = 2;
+console.log((f === g) === --h);
+
+//Q89
+console.log(3 * 3);
+console.log(3 ** 3);
+console.log(3 *** 3);
+
+//Q90
+console.log(a)
+var a;
+
+//Q91
+console.log(b);
+
+//Q92
+console.log([[[[]]]]);
+
+//Q93
+let for = 10;
+
+//Q94
+// difference between undefined and not defined
+
+//Q95
+// difference usage of foo , function foo(){} , var foo = function(){}
+
+//Q96
+// When should I use Arrow Functions?
+
+//Q97
+// When should I not use Arrow Functions?
+
+//Q98
+console.log(NaN === NaN);
+
+//Q99
+console.log(null == undefined);
+
+//Q100
+console.log(true + true + false + false + 2*true);
